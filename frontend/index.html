@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Analisador de Aderência</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="container">
+    <h1>Analisador de Aderência de Currículos</h1>
+    <p class="subtitle">Envie currículos em PDF e descubra os candidatos mais aderentes à vaga.</p>
+
+<form id="form" enctype="multipart/form-data">
+  <div class="input-group">
+    <label>Envie até 5 currículos (PDF)</label>
+    <input type="file" name="arquivos" id="arquivos" accept=".pdf" multiple required />
+  </div>
+  <button type="submit" class="btn">Analisar Candidatos</button>
+</form>
+
+
+    <div id="resultados" class="resultados">
+      <h2>Top 5 Candidatos</h2>
+      <ul id="lista"></ul>
+    </div>
+  </div>
+
+  <footer>
+    <p>💼 Desenvolvido para análise de aderência de perfis LinkedIn e currículos.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
