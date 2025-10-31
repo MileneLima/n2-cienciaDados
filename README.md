@@ -134,11 +134,11 @@ No arquivo **`backend.py`**, edite o dicionário `vaga` para ajustar os requisit
 
 ```python
 vaga = {
-    "grau_escolaridade": "Graduação completa em Ciência da Computação",
-    "conhecimentos_desejados": ["Scrum", "Docker", "Kubernetes"],
-    "conhecimentos_obrigatorios": ["Python", "Git", "SQL"],
+    "grau_escolaridade": "Graduação completa em Engenharia de Software, Ciência da Computação ou áreas correlatas",
+    "conhecimentos_desejados": ["AWS", "Docker", "Kubernetes", "CI/CD", "Metodologias Ágeis"],
+    "conhecimentos_obrigatorios": ["Python", "Django", "REST APIs", "Git", "PostgreSQL"],
     "tempo_experiencia": 2,
-    "observacoes": "Inglês intermediário"
+    "observacoes": "Desejável inglês técnico e disponibilidade para modelo híbrido em São Paulo"
 }
 ```
 
