@@ -43,7 +43,7 @@ C:\projetos\projeto-aderencia
 
 ou clone do GitHub:
 ```bash
-git clone https://github.com/seuusuario/projeto-aderencia.git
+git clone https://github.com/MileneLima/n2-cienciaDados
 cd projeto-aderencia
 ```
 
